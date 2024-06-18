@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.bigDiv{
+    min-height: 65vh;
+    background-color: #63a5c1;
+    
+    
+    
+}
+.input-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.userTask {
+    
+    
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 5px 5px 5px 10px;
+    font-size: 12px;
+    
+    outline: none;
+    
+}
+.addTask {
+    flex: 1;
+    
+    max-width: 40%;
+}
+
+#show {
+    padding: 10px;
+    
+}
+img {
+    height: 20px;
+}
+
+.practice {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+
+.checkbox button {
+    border-radius: 50px;
+    border: 1px solid rgb(224, 216, 216);
+    padding: 7px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 13px;
+    
+}
+
+.checkbox button:hover {
+    background-color: rgb(185, 88, 88);
+    color: white;
+    border: 1px solid black;
+}
+
+.checkbox button:focus {
+    background-color: rgb(152, 114, 114);
+    
+}
+
+.checkbox button:active {
+    background-color: rgb(185, 88, 88);
+}
+input[type = "checkbox"] {
+    width: 20px;
+}
